@@ -158,15 +158,3 @@ Email: admin@liquor.local
 Password: Admin@123
 ```
 
-- Change this password before using the app outside local development.
-
-## Notes
-
-- Product catalog is loaded from the database.
-- Shop items are visible without login.
-- Adding items to cart requires login.
-- Razorpay may reject very low order totals; use totals of at least INR 10 for testing.
-- UPI and QR options depend on Razorpay account/payment-method configuration.
-- Do not commit real secrets, API keys, OAuth secrets, or database passwords.
-- `.gitignore` files are included for backend and frontend generated files.
-
